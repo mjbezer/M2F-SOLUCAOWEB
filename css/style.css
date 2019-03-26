@@ -78,6 +78,9 @@ body{
     padding: 0;
     width: 100%;
 }
+
+/* header */
+
 header{
     display: flex;
     flex-direction: row;
@@ -131,6 +134,9 @@ header aside li{
     padding: 0 15px;
 
 }
+
+/* banner home */
+
 .banner-content{
     margin:15px;
     padding-top: 84px;
@@ -158,9 +164,7 @@ header aside li{
     color:#111;
 }
 
-.section-heading:before, .section-heading:after {
-    background: rgb(105, 147, 146);
-}
+
 .section-heading:before, .section-heading:after  {
     content: "";
     display: block;
@@ -168,6 +172,8 @@ header aside li{
     height: 5px;
     margin-top: 30px;
     margin-bottom: 60px;
+    background: rgb(105, 147, 146);
+
 }
 
 .button {
@@ -175,14 +181,12 @@ header aside li{
     text-transform: uppercase;
     text-decoration: none;
     padding: 15px;
-}
-
-.button {
-   font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size:14px;
     font-weight:bold;
     color:#111;
 }
+
 .button:hover:hover {
     border: rgb(105, 147, 146) solid 1px;
     color: rgb(105, 147, 146);
