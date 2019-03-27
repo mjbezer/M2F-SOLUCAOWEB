@@ -1,13 +1,12 @@
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 *{
 
     margin: 0;
     padding: 0;
 
 }
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 
 body{
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
@@ -25,25 +24,32 @@ body{
 
 }
 
-.page-border .bottom-border, .page-border .left-border, .page-border .right-border, .page-border .top-border {
+.page-border .bottom-border,
+ .page-border .left-border, .page-border 
+ .right-border, .page-border .top-border {
     position: fixed;
     z-index: 2px;
     transition: 2.7s;
 }
 
-.page-border > .top-border, .page-border > .right-border, .page-border > .bottom-border, .page-border > .left-border {
+.page-border > .top-border,
+.page-border > .right-border, 
+.page-border > .bottom-border,
+.page-border > .left-border {
     padding: 11px;
     background: #ccc;
     transition: 2.7s;
 }
 
-.page-border .bottom-border, .page-border .top-border {
+.page-border .bottom-border,
+.page-border .top-border {
     width: 100%;
     padding: 10px;
     left: 0;
 }
 
-.page-border .left-border, .page-border .right-border {
+.page-border .left-border,
+.page-border .right-border {
     padding: 10px;
     height: 100vh;
     top: 0;
@@ -64,6 +70,8 @@ body{
 .page-border .left-border {
     left: 0;
 }
+
+
 
 /* Container Principal */
 
@@ -125,7 +133,7 @@ ul li a:hover{
     color: rgb(105, 147, 146);
 }
 
-.header aside ul{
+header aside ul{
       list-style: none;
 }
 header aside li{
@@ -192,3 +200,6 @@ header aside li{
     color: rgb(105, 147, 146);
 }
 
+.main{
+    display: none !important; 
+}
